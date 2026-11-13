@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="403" height="674" viewBox="0 0 403 674">
+  <defs>
+    <radialGradient id="pink"><stop stop-color="#e779c6"/><stop offset="1" stop-color="#e779c6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cloud"><stop stop-color="#f0faff"/><stop offset=".55" stop-color="#e9f7fc" stop-opacity=".85"/><stop offset="1" stop-color="#e9f7fc" stop-opacity="0"/></radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="8"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+  </defs>
+  <g filter="url(#grain)">
+    <path fill="#c1e5f7" d="M0 0H403V674H0Z"/>
+    <ellipse cx="170" cy="254" rx="57" ry="48" fill="url(#pink)"/>
+    <ellipse cx="367" cy="235" rx="91" ry="61" fill="url(#cloud)"/>
+    <ellipse cx="214" cy="70" rx="98" ry="55" fill="url(#cloud)" opacity=".55"/>
+  </g>
+</svg>
